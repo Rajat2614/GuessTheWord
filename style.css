@@ -41,7 +41,28 @@ header{
     margin: 0.4rem 0 0.4rem 0;
     text-align: center;
 }
+.Rules {
+    padding: 20px;
+    background-color: #770000; /* Red */
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
 
+.closebtn {
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    float: right;
+    font-size: 50px;
+    line-height: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+ }
 #board-container{
     display: flex;
     justify-content: center;
